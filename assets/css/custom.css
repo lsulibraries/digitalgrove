@@ -1,0 +1,15 @@
+#footerLogo {
+	background-color: #f5f5f5;
+    width: 50%;
+    float: left;
+}
+
+#footerInfo {
+	background-color: #f5f5f5;
+    width: 40%;
+    float: right;
+}
+
+#footer > img {
+	width: 100%;
+}
