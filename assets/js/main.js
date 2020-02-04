@@ -127,7 +127,7 @@
 
 		// Toggle.
 			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+				'<a href="#navPanel" aria-label="Opens the menu" id="navPanelToggle">Menu</a>'
 			)
 				.appendTo($wrapper);
 
@@ -147,7 +147,7 @@
 				'<div id="navPanel">' +
 					'<nav>' +
 					'</nav>' +
-					'<a href="#navPanel" class="close"> </a>' +
+					'<a href="#navPanel" aria-label="Closes the menu" class="close"></a>' +
 				'</div>'
 			)
 				.appendTo($body)
